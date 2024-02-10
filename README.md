@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Alemeno Course Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+Welcome to the Alemeno Course Page project! This project is a React-based web application that leverages React-Redux toolkit and Bootstrap 5 for front-end optimization. This website is fully responsive. The goal is to create an interactive and visually appealing educational platform.
 
-In the project directory, you can run:
+## Getting Started
 
-### `yarn start`
+### Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Install Node Modules:**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    ```bash
+    npm install
+    ```
 
-### `yarn test`
+    This command will install all the necessary dependencies for the project.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **Start the Server:**
 
-### `yarn build`
+    ```bash
+    npm start
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    or
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    ```bash
+    yarn start
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    This command will start the development server, and you can view the website by navigating to `http://localhost:5000` in your web browser.
 
-### `yarn eject`
+3. **Install React-spinner:**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    ```bash
+    npm install react-spinners
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    This step is necessary to ensure the proper functionality of the loading spinner component used in the project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## API Used
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The project fetches data from the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/photos). This API provides placeholder data for thumbnails and course titles, which is utilized to simulate dynamic content on the course page.
 
-## Learn More
+## Course Details
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The course details page uses a sample course model that has been replicated for three courses. Due to the dynamic nature of the data, only placeholder information has been provided. For a more realistic representation, it is recommended to replace the sample data with actual course details.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Website Demo
 
-### Code Splitting
+[Demo Link](https://www.loom.com/share/2d7e323329ed432cb5f7c0db2b31f119?sid=d68cd6db-dee8-4cb4-8300-f0a6fb2f144d).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
